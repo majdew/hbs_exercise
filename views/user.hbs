@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>users</title>
+</head>
+
+<body>
+    <table>
+        <th>
+
+            <tr>
+                <td>user</td>
+                <td>address</td>
+            </tr>
+        </th>
+        <tbody>
+            {{#each array}}
+            <tr>
+
+                <td>{{this.name}}</td>
+                <td>{{this.address}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</body>
+
+</html>
